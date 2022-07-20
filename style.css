@@ -1,19 +1,15 @@
 /* google font link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-
-
- /* universal style  */
-
-
+ body{
+    font-family: 'Poppins', sans-serif;
+ }
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
 }
 
 
-    /* header style start */
+    /* header style starting for csss responsive website */
 
 
 header{
@@ -31,7 +27,7 @@ header{
     padding: 50px;
     gap: 90px;
     border-radius: 10px;
-    background-color: #2e1275;
+    background-color: #150442;
 
 }
 
@@ -54,7 +50,7 @@ header{
 }
 
 .button{
-    background-color: #fb0771;
+    background-color: #FF5959;
     padding: 15px 25px;
     border-radius: 10px;
     font-size: 20px;
@@ -89,30 +85,36 @@ header{
 .button:hover{
     animation: btn-annimation 4s;
     animation-fill-mode: forwards;
+    font-size: 22px;
+    transition: 03s;
+    
 }
 
 
 @keyframes btn-annimation {
     25%{
-        background-color: #42f262; 
+        background-color: #ff59cd; 
+        transform:scale(1.5);
     }
 
     50%{
-        background-color: rgb(50, 50, 253);
+        background-color: rgb(50, 253, 141);
     }
 
     75%{
-        background-color: #fb8d07;
+        background-color: #a0907c;
     }
 
     100%{
-        background-color: #b607fb;
+        background-color: orange;
     }
     
 }
 
 
-    /* manuber boxes container starts */
+     /* -------------------------------------------------
+     responsive website create stylesss-
+     ----------------------- */
 
 
 .manuber-boxes-container{
@@ -126,7 +128,7 @@ header{
 .manuber-container{
     width: 312px;
     height: 312px;
-    background-color: #2e1275;
+    background-color: #150442;
     border-radius: 10px;
     padding: 18px;
     justify-content: space-around;
@@ -151,12 +153,12 @@ header{
 
 
 .manuber-container a:hover{
-    background-color: #fb0771;
+    background-color: #FF5959;
     color: #FFFFFF;
 }
 
 #blog{
-    background-color: #fb0771;
+    background-color: #FF5959;
     color: #FFFFFF;
 }
 
@@ -226,11 +228,13 @@ header{
 }
 
 
-/* footer style start */
+/*------------------------------------------------
+ footer style starting reponsive website--
+---------------------------------- */
 
 
 footer{
-    background-color: #2e1275;
+    background-color: #150442;
     padding: 90px 0;
 }
 
@@ -265,7 +269,12 @@ footer{
 
 
 
-/* upcoming match webpage style */
+/*---------------------------------------------------------------
+
+
+upcoming match responsive website stylesssss--
+
+------------------------------------ */
 
 .boxes-container2{
     display: flex;
@@ -367,7 +376,10 @@ footer{
     }
     
 
-    /* manuber boxes container starts */
+    /*-----------------------------------------------------
+    
+    manuber boxes container starts--
+    ----------------------------------------------- */
 
 .manuber-boxes-container{
     display: flex;
@@ -401,7 +413,10 @@ footer{
 }
 
 
-    /* footer responsive  */
+    /*---------------------------
+    
+    footer responsive---
+    --------------------------------------------------  */
 
 
 .footer-manu a{
@@ -412,7 +427,10 @@ footer{
 
 
 
- /* upcoming match responsibe phone */
+ /*----------------------------------------------
+                 
+                 upcoming match responsibe phone--
+ ----------------------------------------------- */
 
  .boxes-container2{
     display: flex;
@@ -457,7 +475,9 @@ footer{
 
 
 
- /* tablet responsive design */
+ /* -------------------------------
+                       ---------------tablet responsive design 
+ ----------------------------*/
 
 
  @media screen and (min-width: 689px) and (max-width: 992px) {
