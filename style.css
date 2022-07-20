@@ -50,7 +50,7 @@ header{
 }
 
 .button{
-    background-color: #FF5959;
+    background-color: #a159ff;
     padding: 15px 25px;
     border-radius: 10px;
     font-size: 20px;
@@ -152,13 +152,12 @@ header{
 }
 
 
-.manuber-container a:hover{
-    background-color: #FF5959;
+/* .manuber-container a:hover{
     color: #FFFFFF;
-}
+} */
 
 #blog{
-    background-color: #FF5959;
+    background-color: #a159ff; 
     color: #FFFFFF;
 }
 
